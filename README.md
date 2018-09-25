@@ -1,6 +1,6 @@
 # Replace Text
 
-replace OPT <from> <to> -- <filename> [<filename>]*
+replace OPT (from) (to) -- filename...
 
 A simple command-line looks for all occurrences of string (from) and replaces it with string (to).
 It is possible to specify one or more files on which to perform the replace
